@@ -1,7 +1,7 @@
 //console.log输出
 // console.log("hello world");
-console.log(__dirname);
-console.log(__filename);
+// console.log(__dirname);
+// console.log(__filename);
 
 //setTimeout一段时间后执行{}内内容
 // setTimeout(() => {
@@ -37,3 +37,24 @@ console.log(__filename);
 //         clearInterval(timer);
 //     }
 // },1000);
+
+//函数
+// function sayHi() {
+//     console.log("Hi");
+// }
+// sayHi();
+
+// var sayBye = function () {
+//     console.log("Bye");
+// }
+// sayBye();
+
+
+//回调函数
+// function callfunction(fun, name){
+//     fun(name);
+// }
+// var sayBye = function(name) {
+//     console.log(name + ' Bye');
+// }
+// callfunction(sayBye,'123')
